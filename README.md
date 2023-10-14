@@ -9,7 +9,7 @@
 
 ##### Tool List
 1) [Reflective DLL Injection Metasploit Module](https://github.com/stephenfewer/ReflectiveDLLInjection/tree/master)
-2) [HellsGate](https://github.com/am0nsec/HellsGate / )[SharpHellsGate](https://github.com/am0nsec/SharpHellsGate) (Choose the regular Hell's Gate Implementation instead of the C# one if you are saner than me)
+2) [HellsGate](https://github.com/am0nsec/HellsGate) / [SharpHellsGate](https://github.com/am0nsec/SharpHellsGate) (Choose the regular Hell's Gate Implementation instead of the C# one if you are saner than me)
 3) [PE to Shellcode](https://github.com/hasherezade/pe_to_shellcode)
 4) [Mimikatz](https://github.com/ParrotSec/mimikatz)
 
@@ -33,7 +33,7 @@ The most basic form of performing such a technique would be to use the pre-confi
 
 After performing the initial exploitation steps on the target and obtaining a meterpeter connection on the system, we'll use `ps` to list the current processes running on the target:
 
-![shell](https://github.com/Tarakhs/ToyingWithHellsGate/blob/master/Screenshots/shell.png?raw=true)
+![](Screenshots/shell.png)
 
 ![](Screenshots/pidFind.png)
 
